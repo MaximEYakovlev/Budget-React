@@ -8,6 +8,14 @@ function App() {
         <Button variant="primary">Add Budget</Button>
         <Button variant="outline-primary">Add Expense</Button>
       </Stack>
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fill, minmax(300 px, 1fr))",
+          gap: "1rem",
+          alignItems: "flex-start",
+        }}
+      ></div>
     </Container>
   );
 }
